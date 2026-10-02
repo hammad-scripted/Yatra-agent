@@ -3,7 +3,7 @@ from fastapi import FastAPI
 app = FastAPI(
     title="Yatra Planner API",
     description="Aggregate travel data from multiple sources to provide single platform",
-    version="1.0.0"
+    version="1.0.0",
     docs_url="/docs"
 )
 
