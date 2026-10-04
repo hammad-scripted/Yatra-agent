@@ -10,3 +10,14 @@ async def create_travel_plan(request: TravelRequest):
         "status":"success",
         "message":"Travel plan created successfully"
     }
+    
+    
+@router.get("/stream")
+def get_request_data(request: Request):
+    """Get request data from the request object"""
+    return request.json()
+
+
+@router.get("/cache-stats")
+def get_stats():
+    return {}

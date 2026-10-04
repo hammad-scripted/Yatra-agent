@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from app.routes.planner import router as planner_router
 
+
 app = FastAPI(
     title="Yatra Planner API",
     description="Aggregate travel data from multiple sources to provide single platform",
