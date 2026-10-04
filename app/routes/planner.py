@@ -21,3 +21,7 @@ def get_request_data(request: Request):
 @router.get("/cache-stats")
 def get_stats():
     return {}
+
+@router.delete("/stream")
+def delete_stats():
+    return {}
